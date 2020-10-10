@@ -10,15 +10,12 @@ function App() {
       <div className="app">
         <Switch>
           <Route path="/">
-            <Header/>
-            <Home/>
+            <Header />
+            <Home />
           </Route>
         </Switch>
-          
-
       </div>
-      </Router>
-    
+    </Router>
   );
 }
 
